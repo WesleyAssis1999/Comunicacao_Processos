@@ -1,6 +1,6 @@
 import socket
 
-PORTA = 15000
+PORTA = 80100
 
 servidor = socket.socket()
 servidor.bind(("localhost", PORTA))
