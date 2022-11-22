@@ -1,7 +1,7 @@
 import socket
 
 cliente = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-cliente.connect(("localhost", 80100))
+cliente.connect(("localhost", 14600))
 
 while True:    
     mensagem = input("Digite uma mensagem: ")
